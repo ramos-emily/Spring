@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 // @Controller
 // @ResponseBody
 @RestController //indica que a class é um controller rest, combinando o controller com rest
-@RequestMapping("/hello-word")
+@RequestMapping("/hello-world")
 public class HelloWorldController {
     //get, post, delete, put. patch, options, head
     // GET /hello-world/get
